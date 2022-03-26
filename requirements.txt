@@ -1,0 +1,4 @@
+progressbar2
+opt_einsum
+soundfile
+librosa
