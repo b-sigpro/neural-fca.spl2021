@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ## Pre-trained model
 The pre-trained model used in the paper for separating speech mixtures can be downloaded from the following URL:
 ```shell
-wget https://github.com/yoshipon/neural-fca_spl2021/releases/download/v0.0.0/model.zip
+wget https://github.com/yoshipon/spl2021_neural-fca/releases/download/spl2021/model.zip
 unzip model.zip
 ```
 
