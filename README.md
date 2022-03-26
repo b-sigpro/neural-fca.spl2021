@@ -30,18 +30,18 @@ unzip model.zip
 ## Source separation
 1. The pre-trained model can separate four-channel two-speech mixtures as follows:
 ```shell
-python spl2021_neural-fca/separate.py model/ input.wav output.wav
+python neural-fca/separate.py model/ input.wav output.wav
 ```
 The model will predict three sources assuming two target sources and one noise source.
 
 2. If you want to perform the separation without inference-time parameter updates, run the following command:
 ```shell
-python spl2021_neural-fca/separate.py model/ input.wav output.wav --n_iter=0
+python neural-fca/separate.py model/ input.wav output.wav --n_iter=0
 ```
 
 3. You can obtain `neural-fca.png` showing mixture and source spectrograms by:
 ```shell
-python spl2021_neural-fca/separate.py model/ input.wav output.wav --n_iter=0 --plot
+python neural-fca/separate.py model/ input.wav output.wav --n_iter=0 --plot
 ```
 
 ## License
